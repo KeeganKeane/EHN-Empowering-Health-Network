@@ -1,0 +1,117 @@
+.journal-area-background{
+    background: #FFCF9B;
+    border-radius: 50px;
+    overflow-y:scroll;
+    scroll-behaviour: smooth;
+    height:100vh;
+
+}
+
+.journal-background{
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+.journal-like-button {
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+}
+
+.journal-like-button-hover:hover {
+  background-color: #9BD1A7;
+  border-color: #80BA9D;
+  border-radius: 100px;
+}
+
+.journal-like-button-is-active {
+  background-color: #9BD1A7;
+  border-color: #80BA9D;
+  border-radius: 100px;
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.journal-report-button {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  border-radius: 100px;
+}
+
+.journal-report-button:hover {
+  background-color: #FFD403;
+  border-color: #FF9356;
+  border-radius: 100px;
+}
+
+.header-nav-journal:hover {
+  background-color: #FFC5BE;
+  border-radius: 100px;
+}
+
+.journal-add-post-button {
+  width: 75px;
+  height: 75px;
+  position: sticky;
+  background-color: #F6F6F6;
+  color: #A09F9F;
+  align-self: flex-end;
+  bottom:50px;
+}
+
+.journal-add-post-button:hover {
+  background-color: #9BD1A7;
+  border-color: #80BA9D;
+  border-radius: 100px;
+  color: #FFFFFF;
+}
+
+.add-button-icon {
+  transition: 0.2s;
+}
+
+.add-button-icon:hover {
+  color: #FFFFFF;
+}
+
+
+.journal-edit-button {
+  background-color: #F6F6F6;
+  border-color: #A09F9F;
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  color: #A09F9F;
+}
+
+.journal-edit-button:hover {
+  background-color: #CCCCCC;
+  border-color: #A09F9F;
+  border-radius: 100px;
+}
+
+
+.journal-delete-button {
+  background-color: #F6F6F6;
+  border-color: #A09F9F;
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  color: #A09F9F;
+}
+
+.journal-delete-button:hover {
+  background-color: #CCCCCC;
+  border-color: #A09F9F;
+  border-radius: 100px;
+}
+
+@media only screen and (max-width: 425px) {
+  .journal-area-background{
+      background: #FFCF9B;
+      border-radius: 0px;
+  }
+}

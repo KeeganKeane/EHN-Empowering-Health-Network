@@ -1,0 +1,20 @@
+.rateButton {
+  text-decoration: none;
+}
+
+.rateButton:hover {
+  cursor: pointer;
+}
+
+.frt-comment-area-background{
+    background: #9BD1A7;
+    border-radius: 0px;
+}
+
+@media only screen and (min-width: 426px) {
+  .frt-comment-area-background{
+      margin-right: 70px;
+      margin-left: 70px;
+      border-radius: 50px;
+  }
+}

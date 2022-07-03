@@ -1,0 +1,26 @@
+.like-comment-icon {
+  color: #A09F9F;
+  transition: 0.2s;
+}
+.like-comment-icon-click {
+  animation: bound-anim 1s;
+  color: #FFFFFF;
+  background-color: #9BD1A7;
+  border-color: #80BA9D;
+}
+
+@keyframes bound-anim {
+  0%,100% {top: 0;transform: scale(1);}
+  30% {top: -60%; transform: scale(0.96,1.04);}
+  60% {transform: scale(1);}
+  90% {top: 0;transform: scale(1.15,0.9);}
+}
+
+.like-count {
+    display:none;
+}
+@media only screen and (min-width: 640px) {
+          .like-count{
+              display: inline;
+          }
+        }

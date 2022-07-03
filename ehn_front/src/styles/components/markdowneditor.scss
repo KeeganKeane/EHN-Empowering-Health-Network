@@ -1,0 +1,27 @@
+.markdown-editor{
+  ul {
+    list-style-type: disc !important;
+    list-style-position: outside !important;
+    list-style-image: none !important;
+  }
+
+  ol {
+    list-style-type: decimal !important;
+  }
+
+  table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+  }
+   
+  td,
+  th {
+    padding: 0 !important;
+  }
+
+  width:100%;
+}
+
+.markdown-content{
+  width: 100%;
+}

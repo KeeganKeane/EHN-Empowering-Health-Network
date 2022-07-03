@@ -1,0 +1,64 @@
+.view-profile-button{
+  color: #8A8A8A;
+}
+
+.view-profile-button:hover{
+  background-color: #E4E1E1;
+}
+
+.view-tab:hover{
+  background-color: #FFFFFF;
+}
+
+.edit-profile-button {
+  background-color: #F6F6F6;
+  border-color: #A09F9F;
+  border: 2px solid #A09F9F;
+  width: 200px;
+  border-radius: 100px;
+  color: #8A8A8A;
+}
+
+.my-post-area-background{
+  background: #E4E1E1;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.tab:hover{
+  background: #E4E1E1;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.delete-report-button {
+  border-color: #A09F9F;
+  color: #8A8A8A;
+  border: 5px solid #A09F9F;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.delete-report-button:hover {
+  background-color: #CCCCCC;
+  color: #7A7A7A;
+  border-color: #7A7A7A;
+  border-radius: 100px;
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 426px) {
+  .view-profile-button{
+    color: #8A8A8A;
+    height: 70px;
+    width: 70px;
+  }
+
+  .my-post-area-background{
+    background: #E4E1E1;
+    border-radius: 0px 50px 0px 0px;
+  }
+
+}
+
+.other-user-name{
+  color: rgb(107,107,107);
+}

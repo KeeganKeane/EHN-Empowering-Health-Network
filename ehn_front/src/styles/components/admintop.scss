@@ -1,0 +1,47 @@
+.report-area-background{
+  background: #E4E1E1;
+  padding: 8px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+@media only screen and (min-width: 426px) {
+  .report-area-background{
+      margin-right: 70px;
+      margin-left: 70px;
+      border-radius: 50px;
+      padding: 16px;
+  }
+}
+
+.report-notification{
+    color: #8A8A8A;
+}
+
+.report-title{
+    color: #6B6B6B;
+}
+
+.reported-info{
+    text-decoration:none;
+}
+
+.fa-circle-arrow-right{
+    color: #FFB769;
+}
+
+.admintop-button{
+    text-decoration:none;
+    color: #6B6B6B;
+    //text-align: center;
+}
+
+.adminhide-button:hover{
+    background-color: #FFC5BE;
+    border-color: #FF6D5A;
+}
+
+.admindismiss-button:hover{
+    background-color: #FEDDB9;
+    border-color: #FF6D5A;
+}

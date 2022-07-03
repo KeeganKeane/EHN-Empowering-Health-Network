@@ -1,0 +1,92 @@
+#header-background{
+  height: 175px;
+  border-radius: 50px;
+}
+
+.header-main-front-background{
+  height: 175px;
+  background: linear-gradient(180deg, #FF7B6A 0%, #FFCF9B 100%);
+  border-radius: 50px;
+}
+
+.header-admin-front-background{
+    height: 175px;
+    background: linear-gradient(180deg, #741576 0%, #1D94D7 100%);
+    border-radius: 50px;
+}
+
+.header-frt-front-background{
+    height: 175px;
+    background: linear-gradient(180deg, #80BA9D 0%, #BFE25B 100%);
+    border-radius: 50px;
+}
+
+.header-back-background{
+    height: 250px;
+    background: linear-gradient(0deg, #E2E2E2, #E2E2E2);
+    border-radius: 50px;
+}
+
+
+.header-nav-item {
+  transition: 0.2s;
+}
+
+.header-nav-about:hover {
+  background-color: $peach;
+  border-radius: 100px;
+}
+
+.header-nav-journal:hover {
+  background-color: #FFC5BE;
+  border-radius: 100px;
+}
+
+.header-nav-frt:hover {
+  background-color: #9BD1A7 ;
+  border-radius: 100px;
+}
+
+.header-nav-journal:hover {
+  background-color: #FFC5BE;
+  border-radius: 100px;
+}
+
+.header-nav-login:hover {
+  color: #FEDDB9;
+  border-radius: 100px;
+}
+
+.header-is-active {
+  background-color: #FFFFFF;
+  border-radius: 100px;
+}
+
+.header-is-active-login {
+  color: #FFFFFF;
+  border-radius: 100px
+}
+
+.header-button-about{
+    width: 189px;
+    height: 50px;
+    solid: #A09F9F;
+}
+
+.logo{
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    opacity: 50%;
+}
+
+.header-logo-wrapper{
+    position: absolute;
+    top: 50%
+}
+
+@media only screen and (max-width: 425px) {
+  .header-main-front-background{
+      border-radius: 0px;
+  }
+}

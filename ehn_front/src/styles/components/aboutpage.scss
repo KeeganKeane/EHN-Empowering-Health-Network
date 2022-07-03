@@ -1,0 +1,139 @@
+.about-wrapper{
+    z-index: -10;
+    margin: 0;
+    width: 100vw;
+    height: 900px;
+    background-image:  url('../images/ehn_about.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    opacity: 50%;
+    margin-bottom: auto;
+}
+
+@media only screen and (min-width: 426px) {
+          .about-wrapper{
+              height: 1000px;
+          }
+}
+
+.box-left {
+    background: #FEDDB9;
+    border-radius: 0px 50px 50px 0px;
+    padding: 20px;
+    @media only screen and (min-width: 426px) {
+      .box-left{
+          padding: 80px;
+      }
+    }
+}
+
+.box-right {
+    background: #FEDDB9;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    @media only screen and (min-width: 426px) {
+          .box-right{
+              padding: 80px;
+          }
+    }
+}
+
+.text-title {
+    //font-family: 'Roboto';
+    //font-style: normal;
+    font-weight: 790;
+    //font-size: 48px;
+    //line-height: 57px;
+    color: #FFA440;
+}
+
+.text-sub{
+    //font-family: 'Roboto';
+    font-weight: 350;
+    //font-size: 28px;
+    //line-height: 38px;
+    color: #FFA440;
+}
+
+.box-center{
+    background: #FEDDB9;
+    border-radius: 50px;
+    padding: 20px;
+        @media only screen and (min-width: 426px) {
+          .box-center{
+              padding: 96px;
+          }
+        }
+}
+
+.box-bottom{
+    background: #FEDDB9;
+    border-radius: 50px;
+}
+@media only screen and (min-width: 426px) {
+      .box-bottom{
+          margin-right: 200px;
+          margin-left: 200px;
+      }
+}
+
+.circle1{
+    background-color:#FFC5BE;
+    width: 80px;
+    height: 80px;
+    border: 4px solid #A09F9F;
+    border-radius: 100px;
+    transition:0.5s;
+    @media (min-width: 640px) {
+        width: 95px;
+        height: 95px;
+    }
+}
+
+.circle1:hover {
+    background-color:#FFACA1;
+    width: 82px;
+    height: 82px;
+    @media (min-width: 640px) {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.circle2{
+    background: #9BD1A7;
+    width: 80px;
+    height: 80px;
+    border: 4px solid #A09F9F;
+    border-radius: 100px;
+    transition:0.5s;
+    @media (min-width: 640px) {
+        width: 95px;
+        height: 95px;
+    }
+}
+
+.circle2:hover {
+    background-color:#7BC28B;
+    width: 105px;
+    height: 105px;
+    @media (min-width: 640px) {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.text-center1{
+    font-weight: 600;
+    //font-size: 40px;
+    //line-height: 48px;
+    color: #FFA340;
+}
+
+.text-center2{
+    font-weight: 400;
+    //font-size: 22px;
+    //line-height: 48px;
+    color: #FFA340;
+}
