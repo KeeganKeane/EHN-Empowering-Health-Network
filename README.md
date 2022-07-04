@@ -14,60 +14,43 @@ Within this project I filled the role of Back-end Team leader. As the lead Back-
 
 The back-end of this project consisted of a REST-ful API created with Spring Boot and a locally run SQL database created using mySQL. 
 
-####The API Controllers and Endpoints are as follows: 
-#####Journal Post Controller
+#### The API Controllers and Endpoints are as follows: 
+##### Journal Post Controller
 
 1. Create a Journal Post	POST	/journal	
-  - User creates a new journal post.
+    - User creates a new journal post.
 2. Edit a Journal Post PATCH
-  - User can edit a pre-existing journal entry that was created by them. 
-3.	Delete a Journal Post	DELETE	/journal/{journalId}User can delete a journal post created by them. 
-4. 	Get a Specific Journal Post	GET	/journal/post?journalId={journalId}&userId={userId}	
-
-Retrieves a specific Journal Post through Journal id
-5.
-
-Display all Journals ordered by specific sort method	GET	/journal/sort?sortKey={sortKey}&userId={userId}	
-
-Retrieves a list of all Journals ordered by a specific sort method.
-
+    - User can edit a pre-existing journal entry that was created by them. 
+3. Delete a Journal Post	DELETE	/journal/{journalId}
+    - User can delete a journal post created by them. 
+5. Get a Specific Journal Post	GET	/journal/post?journalId={journalId}&userId={userId}	
+    - Retrieves a specific Journal Post through Journal id
+5. Display all Journals ordered by specific sort method	GET	/journal/sort?sortKey={sortKey}&userId={userId}	
+    - Retrieves a list of all Journals ordered by a specific sort method.
 6.	Display all Journals for specific user	GET	/journal/user/{userId}	
-
-Retrieves a list of all Journals for a specific user. 
-7.	Display all Comments for a specific Journal Post	GET	/journal/comment/{postId}	
-
-Retrieves a list of all comments for a specific journal post. 
+    - Retrieves a list of all Journals for a specific user. 
+8.	Display all Comments for a specific Journal Post	GET	/journal/comment/{postId}	
+    - Retrieves a list of all comments for a specific journal post. 
 8.	Comment on a Journal Post	POST	/journal/comment	
-
-User can comment on a journal post. 
+    - User can comment on a journal post. 
 9.	Get user likes	GET	/journal/like/{userId}	
-
-Retrieves a list of Journal Posts that have been liked by the user. 
+    - Retrieves a list of Journal Posts that have been liked by the user. 
 10.	Like a Journal Post 	POST	/journal/like	
-
-User can like a journal post. 
+    - User can like a journal post. 
 11.	Remove a like from a journal post	POST	/journal/removeLike	
-
-User can remove a like from a journal post
+    - User can remove a like from a journal post
 12.	Report a Journal Post	POST	/journal/report	
-
-User can submit a report for a journal post that appears to be malicious. 
-Journal Search Controller
-13.
-
-Search Journal posts 	GET	/journal/search?size={}&page={}&keyword={}&userId={}	
-
-Search Journal posts 
+    - User can submit a report for a journal post that appears to be malicious. 
+##### Journal Search Controller
+13. Search Journal posts 	GET	/journal/search?size={}&page={}&keyword={}&userId={}	
+    - Search Journal posts 
 14.	Filtering Journal posts	GET	/journal/filterBy?size={}&page={}&filterKey={}&lowerAgeGroup={}&upperAgeGroup={}&lowerDate={}&upperDate={}&lowerRating={}&upperRating={}&userId={}	
-
-Filtering Journal posts
-Admin Controller
+    - Filter Journal posts
+##### Admin Controller
 15.	Hide Journal post	POST	/admin/hide/{id}	
-
-Hide the malicious post which is reported by someone
+    - Hide the malicious post which is reported by someone
 16.	Dismiss Journal Report	POST	/admin/dismissreport/{id}	
-
-Dismiss journal reports
+    - Dismiss journal reports
 17.	Retrieve all Journal Reports	GET	/admin/getAllReports	
 
 Retrieve all reported journal posts
