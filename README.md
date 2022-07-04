@@ -113,6 +113,9 @@ The back-end of this project consisted of a REST-ful API created with Spring Boo
 ## Front-end 
 The Front-end was delevoped by talented developers from Japan, Canada and Peru. These individuals developed the front-end using React.js. 
 
+#### Basic User Work-Flow
+![image](https://user-images.githubusercontent.com/48190991/177064531-9d2e9367-c8a8-42d1-aa8c-9de2bbe7820a.png)
+
 #### Front-end Dev Specs
 - Main Page	
     - User can see all the Journal Posts that is enabled by the Admin.(Non-Deleted posts)
