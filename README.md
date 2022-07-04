@@ -30,6 +30,10 @@ The back-end of this project consisted of a REST-ful API created with Spring Boo
 - mySQL 
 - IntelliJ
 
+#### RESTful API Structure
+![image](https://user-images.githubusercontent.com/48190991/177064392-d7cef330-489e-4cff-9335-02b4ba264ce1.png)
+
+
 #### SQL Database Structure
 ![image](https://user-images.githubusercontent.com/48190991/177064167-87601bfd-e1db-4c47-a641-59b4f8e1bf92.png)
 
