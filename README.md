@@ -8,7 +8,7 @@ EHN is a blog style social media platform that is catered towards helping indivi
 
 ## Detailed Overview:
 #### Personal Contributions 
-Within this project I filled the role of Back-end Team leader. As the lead Back-End developer I led Back-End discussion meetings, assigned tasks and worked with the front-end team to collaboratively determine and implement the structure and features of the REST-ful API. The discussion topics included but were not limited to what API endpoints were to be implemented, security, QA testing and general questions that would help the team produce the best product. These discussions took place in both Japanese and English in order to make sure the team was communicating effectively. Additionally, I helped code and develop the REST-ful API. 
+Within this project I filled the role of Back-end Team leader. As the lead Back-End developer I led two talented Back-End Japanese developers in creating a Rest-ful API as well as SQL database. The responsibilities indcluded leading Back-End discussion meetings, assigning tasks, helping team-mates with bugs or questions, working with the front-end team and product manager to collaboratively determine and implement the structure and features of the REST-ful API. The discussion topics included but were not limited to what API endpoints were to be implemented, security, QA testing and general questions that would help the team produce the best product. These discussions took place in both Japanese and English in order to make sure the team was communicating effectively. Additionally, I helped code and develop the REST-ful API. 
 
 ## Back-End 
 
@@ -23,13 +23,13 @@ The back-end of this project consisted of a REST-ful API created with Spring Boo
     - User can edit a pre-existing journal entry that was created by them. 
 3. Delete a Journal Post	DELETE	/journal/{journalId}
     - User can delete a journal post created by them. 
-5. Get a Specific Journal Post	GET	/journal/post?journalId={journalId}&userId={userId}	
+4. Get a Specific Journal Post	GET	/journal/post?journalId={journalId}&userId={userId}	
     - Retrieves a specific Journal Post through Journal id
 5. Display all Journals ordered by specific sort method	GET	/journal/sort?sortKey={sortKey}&userId={userId}	
     - Retrieves a list of all Journals ordered by a specific sort method.
 6.	Display all Journals for specific user	GET	/journal/user/{userId}	
     - Retrieves a list of all Journals for a specific user. 
-8.	Display all Comments for a specific Journal Post	GET	/journal/comment/{postId}	
+7.	Display all Comments for a specific Journal Post	GET	/journal/comment/{postId}	
     - Retrieves a list of all comments for a specific journal post. 
 8.	Comment on a Journal Post	POST	/journal/comment	
     - User can comment on a journal post. 
@@ -52,27 +52,23 @@ The back-end of this project consisted of a REST-ful API created with Spring Boo
 16.	Dismiss Journal Report	POST	/admin/dismissreport/{id}	
     - Dismiss journal reports
 17.	Retrieve all Journal Reports	GET	/admin/getAllReports	
-
-Retrieve all reported journal posts
+    - Retrieve all reported journal posts
 18.	Retrieve report list to the journal	GET	/admin/getReports/{journalId}	
-
-Retrieve all report to the journal
-New	Retrieve hided journals	GET	/admin/hidedJournals	
-
-New	Get hided journal	GET	/admin/hidedJournal/{journalId}	
-
-New	Unhide journal	PATCH	/admin/unhide/{journalId}	
-
-Login Controller
-19	Login to Website	POST	user/login	
-
-Login to the website
-
-Register to the website
-21	Update user info 	POST	user/updateInfo/{id}	
-
-Update the user information
-22	Get User Information	GET	/user/{id}	
-Retrieves basic user information through user Id
+    - Retrieve all report to the journal
+19. Retrieve hidden journals GET /admin/hidedJournals
+    - Retrieves a list of journal posts that are hidden to regular users
+21. Get hidden journal GET /admin/hidedJournal/{journalId}	  
+    - Retrieves a specific hidden journal 
+23. Unhide journal PATCH /admin/unhide/{journalId}
+    - Unhides a Journal so that regular users can now view them again 
+##### Login Controller
+24. Login to Website POST user/login
+    - Login to the website
+25. Register to the website POST user/register	
+    - Register to the website
+26.	Update user info POST user/updateInfo/{id}	
+    - Update the user information
+27. Get User Information GET /user/{id}	
+    - Retrieves basic user information through user Id
 
 ## Front-end 
