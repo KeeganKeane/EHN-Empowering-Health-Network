@@ -111,11 +111,11 @@ The Front-end was delevoped by talented developers from Japan, Canada and Peru. 
 
 #### Front-end Dev Specs
 - Main Page	
-User can see all the Journal Posts that is enabled by the Admin.(Non-Deleted posts)
-User can search Journal posts by inputting keywords
-User can sort the Journal posts by the number of likes and by date.
-User can submit LIKE
-User can submit report at pop-up view
+    - User can see all the Journal Posts that is enabled by the Admin.(Non-Deleted posts)
+    - User can search Journal posts by inputting keywords
+    - User can sort the Journal posts by the number of likes and by date.
+    - User can submit LIKE
+    - User can submit report at pop-up view
 Search key: maximum 128 characters
 - Login Page	
     - User can input email and password 
