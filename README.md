@@ -118,7 +118,7 @@ Search key: maximum 128 characters
     - userName: maximum 16 characters
     - Password:
     - 8-32 characters, MUST be used capital, small letter and [0-9]
-    - (Stretch) deny weak pass (ex. "Password", "12345" and "qwerty")
+    - deny weak pass (ex. "Password", "12345" and "qwerty")
     - Confirm pass: same as Password
     - Positive Result Date: before the day
     - Not Blank
@@ -128,7 +128,7 @@ Search key: maximum 128 characters
     - User can see his/her past journal that they posted
     - User can see journals that they liked
     - All the information will be switched by tab function
-    - (Stretch) User can see there FRT stats
+    - User can see there FRT stats
 - Edit User Profile Page	
     - User can see his/her own basic information
     - User can edit his/her own basic information
@@ -136,7 +136,7 @@ Search key: maximum 128 characters
     - userName: maximum 16 characters
     - Password:
     - 8-32 characters, MUST be used capital, small letter and [0-9]
-    - (Stretch) deny weak pass (ex. "Password", "12345" and "qwerty")
+    - deny weak pass (ex. "Password", "12345" and "qwerty")
     - Confirm pass: same as Password
     - Positive Result Date: before the day
     - Not Blank
@@ -149,14 +149,14 @@ Search key: maximum 128 characters
     - Content: maximum 4096 characters
     - Not Blank
     - Title and content
-    - (Stretch) NG words in title or contents
+    - NG words in title or contents
 - Edit Journal Page	
     - User can edit journals that they have posted
     - Title: maximum 128 characters
     - Content: maximum 4096 characters
     - Not Blank
     - Title and content
-    - (Stretch) NG words in title or contents
+    - NG words in title or contents
  - Journal Detail Page	
     - User can see the whole content of the journal
     - User can see the comments
@@ -175,7 +175,7 @@ Search key: maximum 128 characters
     - Clickable button
     - Leading to Admin Food Item List Page
     - Leading to Admin new Food Page
-    - Leading to【Stretch】Analytics Page
+    - Leading to Analytics Page
 - FRT Food Item Detail Page	
     - User can see basic information of the food
     - User can see the result of the votes that was made
