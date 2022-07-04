@@ -17,8 +17,22 @@ Within this project I filled the role of Back-end Team leader. As the lead Back-
 ## Back-End 
 
 The back-end of this project consisted of a REST-ful API created with Spring Boot and a locally run SQL database created using mySQL. 
-##### Impemented Features 
+
+##### Tech-Stack/Impemented Features 
+- Java
+- SQL
+- Spring boot
 - Spring boot Security 
+- JUnit Testing 
+- Integration Testing 
+- Mockito 
+- JPA 
+- mySQL 
+- IntelliJ
+
+#### SQL Database Structure
+![image](https://user-images.githubusercontent.com/48190991/177064167-87601bfd-e1db-4c47-a641-59b4f8e1bf92.png)
+
 
 #### The API Controllers and Endpoints are as follows: 
 ##### Journal Post Controller
